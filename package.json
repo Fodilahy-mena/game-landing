@@ -1,0 +1,25 @@
+{
+  "name": "game-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fodilahy-mena/game-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fodilahy-mena/game-landing/issues"
+  },
+  "homepage": "https://github.com/Fodilahy-mena/game-landing#readme"
+}
