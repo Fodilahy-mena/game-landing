@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game landing</title>
-    <link rel="stylesheet" href="./webroot/css/index.css">
+    <link rel="stylesheet" href="../webroot/css/index.css">
 </head>
 <body>
     <input type="checkbox" id="menu_checkbox">
@@ -12,7 +12,6 @@
     <header>
         <div class="container">
             <label for="menu_checkbox" class="icon icon_menu">
-            <span class="a11y">Open the menu</span>
             </label>
             <h1>
                 <a href="/home-logo">
@@ -21,81 +20,60 @@
                 </a>
             </h1>
 
-            <nav class="head_navigatrion">
-                <h2>
-                <label for="menu_checkbox" class="icon icon_menu">
-                    <span class="a11y">Site menu</span>
-                </label>
-                </h2>
-                <ul>
-                    <li class="active">
-                    <a class="icon icon_home" href="/">Main</a>
-                    </li>
-                    <li>
-                    <a class="icon icon_about" href="/about">About</a>
-                    </li>
-                    <li>
-                    <a class="icon icon_game--features" href="/features">Game features</a>
-                    </li>
-                    <li>
-                    <a class="icon icon_system" href="/system/requirements">System requirements</a>
-                    </li>
-                    <li>
-                    <a class="icon icon_quotes" href="/system/quotes">Quotes</a>
-                    </li>
-                    <form action="." method="GET">
-                        <label for="lang_dropdown">Language</label>
-                        <select name="lang" id="lang_dropdown">
-                        <option lang="en" value="en" label="English">
-                        <option lang="ru" value="ru" label="русский">
-                        <option lang="fr" value="fr" label="Français">
-                        <option lang="de" value="de" label="Deutsch">
-                        </select>
-                        <button type="submit">Save</button>
-                    </form>
-                    
-                    <li id="icon_play">
-                        <a href="/">
-                            <img src="" alt>
-                            <span>Play1</span>
-                        </a>
-                        <a href="/">
-                            <img src="" alt>
-                            <span>Play2</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <form action="." method="GET">
+                <label for="lang_dropdown">Language</label>
+                <select name="lang" id="lang_dropdown">
+                <option lang="en" value="en" label="English">
+                <option lang="ru" value="ru" label="русский">
+                <option lang="fr" value="fr" label="Français">
+                <option lang="de" value="de" label="Deutsch">
+                </select>
+            </form>
+
+            <!-- <ul>
+                <li id="icon_play">
+                    <a href="/">
+                        <img src="" alt>
+                        <span>Play1</span>
+                    </a>
+                    <a href="/">
+                        <img src="" alt>
+                        <span>Play2</span>
+                    </a>
+                </li>
+            </ul> -->
         </div>
+        
     </header>
 
     <main>
-        <section class="section__challenge">
-            <h2>SURVIVE AT ALL COSTS</h2>
-            <h3>Experience new social battle royale game</h3>
-
-            <div>
-                <dl>
-                    <td>Buy Now on Steam</td>
-                    <td class="price">$14.99</td>
-                </dl>
+        <header>
+            <div class="challenge">
+                <h2>SURVIVE AT ALL COSTS</h2>
+                <h3>Experience new social battle royale game</h3>
+    
+                <button>
+                    Buy Now on Steam
+                    <span class="price">| $14.99</span>
+                </button>
+                <details>
+                    <summary>History</summary>
+                    Something small enough to escape casual notice.
+                </details>
+    
+                <div class="progress">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <input type="radio">
+                    <svg width="44" height="9" viewBox="0 0 44 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M43.0595 4.98751L38.3579 1.42911V4.98751V8.23021L43.0595 4.98751Z" fill="white"/>
+                        <path d="M1.42554 4.98751H38.3579M38.3579 1.42911L43.0595 4.98751L38.3579 8.23021V1.42911Z" stroke="white" stroke-width="1.19824" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </div>
-            <details>
-                <summary>History</summary>
-                Something small enough to escape casual notice.
-            </details>
+        </header>
 
-            <div class="progress">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-                <svg width="44" height="9" viewBox="0 0 44 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M43.0595 4.98751L38.3579 1.42911V4.98751V8.23021L43.0595 4.98751Z" fill="white"/>
-                    <path d="M1.42554 4.98751H38.3579M38.3579 1.42911L43.0595 4.98751L38.3579 8.23021V1.42911Z" stroke="white" stroke-width="1.19824" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
-        </section>
         <section>
             <h2>social battle royale game</h2>
             <h3>What is SOS?</h3>
@@ -362,6 +340,33 @@
             <hr>
         </section>
     </main>
+
+    <nav class="head_navigatrion">
+        <h2>
+            <label for="menu_checkbox" class="icon icon_menu">
+                <span class="a11y">Site menu</span>
+            </label>
+        </h2>
+        
+        <ul>
+            <li class="">
+            <a class="icon icon_home" href="/">Main</a>
+            </li>
+            <li>
+            <a class="icon icon_about" href="/about">About</a>
+            </li>
+            <li>
+            <a class="icon icon_game--features" href="/features">Game features</a>
+            </li>
+            <li>
+            <a class="icon icon_system" href="/system/requirements">System requirements</a>
+            </li>
+            <li>
+            <a class="icon icon_quotes" href="/system/quotes">Quotes</a>
+            </li>
+        </ul>
+    </nav>
+
     <footer>
         <p>&copy; 2018 Outpost Games, Inc. All Rights Reserved<p>
         <ul>

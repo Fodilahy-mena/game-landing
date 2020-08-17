@@ -1,2 +1,40 @@
 @import 'variables';
 
+body > header {
+    background-image: url(../images/bg_challenge1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 40%;
+}
+
+.container {
+    display: flex;
+}
+body > input {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    // background-image: url(../images/menu_icon.svg);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+  }
+
+  form > select {
+    background: none;
+    border: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  form > select > option {
+      background-color: black;
+  }
+  form > label {
+      display: none;
+  }

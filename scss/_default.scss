@@ -1,15 +1,24 @@
 @import 'variables';
 
+@font-face {
+  font-family: openSansRegular;
+  src: local('Open Sans Regular'),
+       local('open sans regular'),
+       url('#{$openSans-font-path}open_sans_regular.#{$woff2}') format("#{$woff2}"),
+       url('#{$openSans-font-path}open_sans_regular.#{$woff}') format("#{$woff}");
+}
+
   body {
-    font-family: sans-serif;
+    font-family: openSansRegular;
     font-size: 16px;
     color: $first-color;
-    // background: $bg-colour;
-    background-image: url(../webroot/images/bg_challenge1.jpg);
+    background: $bg-colour;
+    
   }
 
   ul {
     list-style: $list-style;
+    padding: 0;
   }
 
   a {
@@ -20,10 +29,5 @@
   }
 
   p {
-    @font-face {
-      font-family: openSansRegular;
-      src: local('Open Sans Regular'),
-           local('open sans regular'),
-           url('#{$openSans-font-path}open_sans_regular.ttf') format("#{$woff2}");
-    }
+    
   }
