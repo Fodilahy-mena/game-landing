@@ -12,16 +12,39 @@
     z-index: -1;
 }
 
+.masthead h2 {
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.masthead h3 {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
+.masthead button {
+    width: 216px;
+    height: 44px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    background-color: $second-color;
+    border: 0;
+    border-radius: 2.94008px;
+}
 body > header {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
 }
 
-.container {
-    display: flex;
-}
 body > input {
     width: 1rem;
     height: 1rem;
