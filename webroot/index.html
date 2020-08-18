@@ -10,26 +10,28 @@
     <input type="checkbox" id="menu_checkbox">
 
     <header>
-        <div class="container">
-            <label for="menu_checkbox" class="icon icon_menu">
-            </label>
+        
             <h1>
                 <a href="/home-logo">
                     <img src="./images/sos-logo.svg" alt="sos logo">
                     <span class="hidden">Home to Sos</span>
                 </a>
             </h1>
+            <div>
+                    <label for="menu_checkbox" class="icon icon_menu">
+                        <span class="a11y">Open the menu</span>
+                    </label>
 
-            <form action="." method="GET">
-                <label for="lang_dropdown">Language</label>
-                <select name="lang" id="lang_dropdown">
-                <option lang="en" value="en" label="English">
-                <option lang="ru" value="ru" label="русский">
-                <option lang="fr" value="fr" label="Français">
-                <option lang="de" value="de" label="Deutsch">
-                </select>
-            </form>
-
+                    <form action="." method="GET">
+                        <label for="lang_dropdown">Language</label>
+                        <select name="lang" id="lang_dropdown">
+                        <option lang="en" value="en" label="English">
+                        <option lang="ru" value="ru" label="русский">
+                        <option lang="fr" value="fr" label="Français">
+                        <option lang="de" value="de" label="Deutsch">
+                        </select>
+                    </form>
+                </div>
             <!-- <ul>
                 <li id="icon_play">
                     <a href="/">
@@ -42,12 +44,11 @@
                     </a>
                 </li>
             </ul> -->
-        </div>
         
     </header>
 
     <main>
-        <header>
+        <header class="masthead">
             <div class="challenge">
                 <h2>SURVIVE AT ALL COSTS</h2>
                 <h3>Experience new social battle royale game</h3>
@@ -342,27 +343,25 @@
     </main>
 
     <nav class="head_navigatrion">
-        <h2>
-            <label for="menu_checkbox" class="icon icon_menu">
-                <span class="a11y">Site menu</span>
-            </label>
-        </h2>
-        
+       
+        <label for="menu_checkbox" class="icon icon_menu">
+            <span class="a11y">Site menu</span>
+        </label>
         <ul>
             <li class="">
-            <a class="icon icon_home" href="/">Main</a>
+                <a class="icon icon_home" href="/">Main</a>
             </li>
             <li>
-            <a class="icon icon_about" href="/about">About</a>
+                <a class="icon icon_about" href="/about">About</a>
             </li>
             <li>
-            <a class="icon icon_game--features" href="/features">Game features</a>
+                <a class="icon icon_game--features" href="/features">Game features</a>
             </li>
             <li>
-            <a class="icon icon_system" href="/system/requirements">System requirements</a>
+                <a class="icon icon_system" href="/system/requirements">System requirements</a>
             </li>
             <li>
-            <a class="icon icon_quotes" href="/system/quotes">Quotes</a>
+                <a class="icon icon_quotes" href="/system/quotes">Quotes</a>
             </li>
         </ul>
     </nav>

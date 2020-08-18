@@ -1,12 +1,19 @@
 @font-face {
   font-family: openSansRegular;
-  src: local("Open Sans Regular"), local("open sans regular"), url("../webroot/fonts/open_sans_regular.woff2") format("woff2"), url("../webroot/fonts/open_sans_regular.woff") format("woff"); }
+  src: local("Open Sans Regular"), local("open sans regular"), url("../fonts/open_sans_regular.woff2") format("woff2"), url("../fonts/open_sans_regular.woff") format("woff"); }
+
+@font-face {
+  font-family: openSansBold;
+  src: local("Open Sans Bold"), local("open sans bold"), url("../fonts/open_sans_bold.woff2") format("woff2"), url("../fonts/open_sans_bold.woff") format("woff"); }
 
 body {
   font-family: openSansRegular;
   font-size: 16px;
   color: #FFFFFF;
-  background: radial-gradient(17.45% 34.77% at 31.45% 40.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
+  background: radial-gradient(17.45% 34.77% at 31.45% 40.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%);
+  font-style: normal;
+  font-weight: normal;
+  margin: 0; }
 
 ul {
   list-style: none;
@@ -24,15 +31,15 @@ body > nav {
   position: absolute;
   z-index: 3;
   top: 0;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 250px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  transform: translateX(-110%);
+  transform: translateX(110%);
   transition: transform 0.3s; }
 
 body > [type="checkbox"]:checked ~ nav {
-  transform: translateX(0); }
+  transform: translateX(0%); }
 
 body > [type="checkbox"]:checked ~ header label {
   position: absolute;
@@ -45,30 +52,24 @@ body > [type="checkbox"]:checked ~ header label {
   width: 100%;
   background: rgba(0, 0, 0, 0.25); }
 
-body > [type="checkbox"]:checked ~ main {
-  z-index: 1; }
-
-.head_navigatrion > h2 {
-  display: none;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 1rem;
-  height: 1rem; }
-
 .head_navigatrion > ul {
   list-style: none;
   background-color: black;
   display: flex;
   flex-direction: column; }
 
-body > nav > h2 > label {
+body > [type="checkbox"] {
+  display: none; }
+
+body > nav > label, body > header > div > label {
   width: 1rem;
   height: 1rem;
-  display: block;
   background-image: url(../images/menu_icon.svg);
   background-size: 1rem;
   background-repeat: no-repeat; }
+
+body > nav > label {
+  opacity: 0; }
 
 body > nav > ul {
   list-style: none;
@@ -94,11 +95,21 @@ body > nav .icon {
 body > nav > ul a:hover {
   opacity: 1; }
 
-body > header {
+.masthead {
   background-image: url(../images/bg_challenge1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 40% 40%; }
+  background-position: 40% 40%;
+  padding-block-start: 228px;
+  padding-block-end: 200px;
+  position: relative;
+  top: -125px;
+  z-index: -1; }
+
+body > header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem; }
 
 .container {
   display: flex; }
@@ -110,10 +121,23 @@ body > input {
   background-size: 1rem;
   background-repeat: no-repeat; }
 
+.a11y {
+  opacity: 0; }
+
+body > header > div {
+  display: flex; }
+
+body > header > div > label {
+  order: 2;
+  margin-inline-start: 2rem; }
+
+h1 {
+  margin: 0; }
+
 form > select {
   background: none;
   border: 0;
-  font-family: Open Sans;
+  font-family: openSansBold;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;

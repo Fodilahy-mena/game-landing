@@ -8,12 +8,22 @@
        url('#{$openSans-font-path}open_sans_regular.#{$woff}') format("#{$woff}");
 }
 
+@font-face {
+  font-family: openSansBold;
+  src: local('Open Sans Bold'),
+       local('open sans bold'),
+       url('#{$openSans-font-path}open_sans_bold.#{$woff2}') format("#{$woff2}"),
+       url('#{$openSans-font-path}open_sans_bold.#{$woff}') format("#{$woff}");
+}
+
   body {
     font-family: openSansRegular;
     font-size: 16px;
     color: $first-color;
     background: $bg-colour;
-    
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
   }
 
   ul {
@@ -28,6 +38,4 @@
     display: none;
   }
 
-  p {
-    
-  }
+ 
