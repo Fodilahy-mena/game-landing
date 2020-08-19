@@ -25,113 +25,6 @@ a {
 .hidden {
   display: none; }
 
-body > nav {
-  padding: 1rem;
-  height: 50%;
-  position: absolute;
-  z-index: 3;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 250px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  transform: translateX(110%);
-  transition: transform 0.3s; }
-
-body > [type="checkbox"]:checked ~ nav {
-  transform: translateX(0%); }
-
-body > [type="checkbox"]:checked ~ header label {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.25); }
-
-.head_navigatrion > ul {
-  list-style: none;
-  background-color: black;
-  display: flex;
-  flex-direction: column; }
-
-body > [type="checkbox"] {
-  display: none; }
-
-body > nav > label, body > header > div > label {
-  width: 1rem;
-  height: 1rem;
-  background-image: url(../images/menu_icon.svg);
-  background-size: 1rem;
-  background-repeat: no-repeat; }
-
-body > nav > label {
-  opacity: 0; }
-
-body > nav > ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column; }
-
-body > nav > ul a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-  opacity: 0.5;
-  font-weight: 700;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  transition: opacity 0.3s;
-  display: block;
-  padding: 1rem 1rem 1rem 4rem;
-  vertical-align: middle; }
-
-body > nav .icon {
-  background-position: 1rem 50%; }
-
-body > nav > ul a:hover {
-  opacity: 1; }
-
-.masthead {
-  background-image: url(../images/bg_challenge1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 40% 40%;
-  padding-block-start: 228px;
-  padding-block-end: 200px;
-  position: relative;
-  top: -125px;
-  z-index: -1; }
-
-.masthead h2 {
-  font-size: 33px;
-  line-height: 33px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase; }
-
-.masthead h3 {
-  font-size: 18px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
-
-.masthead button {
-  width: 216px;
-  height: 44px;
-  padding: 0;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
-  text-align: center;
-  background-color: #FFB548;
-  border: 0;
-  border-radius: 2.94008px; }
-
 body > header {
   display: flex;
   justify-content: space-between;
@@ -175,3 +68,155 @@ form > select > option {
 
 form > label {
   display: none; }
+
+.masthead {
+  background-image: url(../images/bg_challenge1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 40%;
+  padding-block-start: 228px;
+  padding-block-end: 200px;
+  position: relative;
+  top: -125px;
+  z-index: -1; }
+
+.masthead h2 {
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.masthead h3 {
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.masthead button {
+  width: 216px;
+  height: 44px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  background-color: #FFB548;
+  border: 0;
+  border-radius: 2.94008px; }
+
+.challenge {
+  text-align: center; }
+
+.challenge > div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -10rem;
+  margin-top: 10rem; }
+
+.challenge > div > details, ul {
+  position: relative;
+  right: 1rem; }
+
+.progressbar {
+  margin: 0; }
+
+.progressbar li {
+  float: left;
+  width: 20%;
+  position: relative;
+  text-align: center; }
+
+.progressbar svg {
+  display: block;
+  position: relative;
+  bottom: 22px;
+  left: 6rem;
+  margin: 0;
+  padding: 0; }
+
+.progressbar li:before {
+  content: " ";
+  width: 10.5px;
+  height: 10.5px;
+  border: 2px solid #bebebe;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: transparent; }
+
+body > nav {
+  padding: 1rem;
+  height: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 250px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  transform: translateY(-100%);
+  transition: transform 0.3s; }
+
+body > [type="checkbox"]:checked ~ nav {
+  transform: translateY(0%); }
+
+body > [type="checkbox"]:checked ~ header label {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25); }
+
+.head_navigatrion > ul {
+  list-style: none;
+  background-color: black;
+  display: flex;
+  flex-direction: column; }
+
+.head_navigatrion label {
+  width: 250px;
+  display: block;
+  height: 30px; }
+
+body > [type="checkbox"] {
+  display: none; }
+
+body > nav > label, body > header > div > label {
+  width: 1rem;
+  height: 1rem;
+  background-image: url(../images/menu_icon.svg);
+  background-size: 1rem;
+  background-repeat: no-repeat; }
+
+body > nav > label {
+  opacity: 0; }
+
+body > nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column; }
+
+body > nav > ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  transition: opacity 0.3s;
+  display: block;
+  padding: 1rem 1rem 1rem 4rem;
+  vertical-align: middle; }
+
+body > nav .icon {
+  background-position: 1rem 50%; }
+
+body > nav > ul a:hover {
+  opacity: 1; }
