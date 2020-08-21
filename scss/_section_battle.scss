@@ -5,13 +5,27 @@
     background-size: cover;
     background-position: 40% 40%;
     padding-block-start: 0px;
-    /* padding-block-end: 200px; */
+    padding: 16px;
     position: relative;
     top: -145px;
-    z-index: -1;
+}
+.section__battle h2 {
+  font-size: $font-seze + 19;
+  line-height: $lign-height + 17;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
+.section__battle h3 {
+  font-size: $font-seze + 4;
+  line-height: $lign-height + 2;
+  letter-spacing: 2px;
+  text-transform: uppercase
+}
 
+.section__battle p {
+  font-size: $font-seze + 2;
+}
   
   .gallery img {
     max-width: 100%;
@@ -27,8 +41,6 @@
   }
   
   .galleries > ul {
-    // direction: rtl;  
-    // text-align: center; 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -37,6 +49,9 @@
   }
   .gallery {
       position: absolute;
+  }
+  .gallery img {
+    border-radius: 5px;
   }
 .gallery:nth-of-type(1) {
     z-index: 3;
@@ -61,4 +76,10 @@
 	transform-origin: 100% 0%;
 	transform: translateY(-50%) scale(calc(249 / 273));
     
+}
+.slides {
+  position: relative;
+  z-index: 3;
+  bottom: 4rem;
+  text-align: center;
 }
