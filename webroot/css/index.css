@@ -25,6 +25,18 @@ a {
 .hidden {
   display: none; }
 
+h2 {
+  font-size: 33px;
+  line-height: 33px;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
 body > header {
   display: flex;
   justify-content: space-between;
@@ -81,20 +93,6 @@ form > label {
   position: relative;
   top: -125px;
   z-index: -1; }
-
-.masthead h2 {
-  font-size: 33px;
-  line-height: 33px;
-  text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase; }
-
-.masthead h3 {
-  font-size: 18px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
 
 .masthead button {
   width: 216px;
@@ -236,18 +234,6 @@ body > nav > ul a:hover {
   padding: 16px;
   position: relative;
   top: -145px; }
-
-.section__battle h2 {
-  font-size: 33px;
-  line-height: 33px;
-  letter-spacing: 3px;
-  text-transform: uppercase; }
-
-.section__battle h3 {
-  font-size: 18px;
-  line-height: 18px;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
 
 .section__battle p {
   font-size: 16px; }
