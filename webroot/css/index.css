@@ -37,6 +37,11 @@ h3 {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
+.masthead, section {
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  position: relative; }
+
 body > header {
   display: flex;
   justify-content: space-between;
@@ -88,9 +93,6 @@ form > label {
   background-position: 40% 40%;
   padding-block-start: 228px;
   padding-block-end: 200px;
-  padding-inline-start: 16px;
-  padding-inline-start: 16px;
-  position: relative;
   top: -125px;
   z-index: -1; }
 
@@ -288,3 +290,29 @@ body > nav > ul a:hover {
   z-index: 3;
   bottom: 4rem;
   text-align: center; }
+
+.section__features {
+  background-image: url(../images/bg_fea3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 40%;
+  bottom: 164px; }
+
+.features__special {
+  padding-block-end: 151px;
+  padding-block-start: 92px;
+  padding-inline-start: 92px; }
+
+.container summary {
+  font-size: 21px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: #FFB548; }
+
+.container p {
+  font-size: 14px;
+  line-height: 16px; }
+
+.container details {
+  padding-block-start: 1rem;
+  padding-block-end: 1rem; }
