@@ -29,15 +29,16 @@ a {
 .hidden {
   display: none; }
 
+h2, h3, h4 {
+  font-family: bebasNeu; }
+
 h2 {
-  font-family: bebasNeu;
   font-size: 33px;
   line-height: 33px;
   letter-spacing: 3px;
   text-transform: uppercase; }
 
 h3 {
-  font-family: bebasNeu;
   font-size: 18px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -234,7 +235,7 @@ body > nav > ul a:hover {
   opacity: 1; }
 
 .section__battle {
-  background-image: url(../images/bg_battle.jpg);
+  background-image: radial-gradient(70.03% 27.57% at 56% 60.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%), url(../images/bg_battle.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% 40%;
@@ -320,3 +321,29 @@ body > nav > ul a:hover {
   font-family: openSansRegular;
   font-size: 14px;
   line-height: 16px; }
+
+.section__requirements {
+  background-image: radial-gradient(73.54% 63.14% at 45.77% 73.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), url(../images/bg_requirements1.png);
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  background-size: cover, auto 65%;
+  bottom: 182px; }
+
+.requirements__system {
+  padding-block-start: 2rem;
+  padding-block-end: 300px; }
+
+h4 {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #FFB548; }
+
+table, td {
+  border: 0.504234px solid #979797; }
+
+td {
+  padding: 1rem; }
+
+table {
+  border-collapse: collapse; }

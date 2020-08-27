@@ -1,0 +1,30 @@
+@import 'variables';
+
+.section__requirements {
+    background-image: 
+    radial-gradient(73.54% 63.14% at 45.77% 73.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), 
+        url(../images/bg_requirements1.png);
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+    background-size: cover, auto 65%;
+    bottom: 182px;
+}
+.requirements__system {
+    padding-block-start: 2rem;
+    padding-block-end: 300px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: $second-color;
+  }
+table, td {
+    border: 0.504234px solid #979797;
+  }
+ td {
+   padding: 1rem;
+ }
+  table {
+  border-collapse:collapse;
+}

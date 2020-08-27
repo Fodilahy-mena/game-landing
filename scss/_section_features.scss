@@ -1,3 +1,5 @@
+@import 'variables';
+
 .section__features {
     background-image: radial-gradient(27.45% 45.77% at 21.45% 50.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%),url(../images/bg_pruned2.png);
     background-repeat: no-repeat;
@@ -19,14 +21,10 @@
     line-height: 21px;
     // text-align: center;
     letter-spacing: 2px;
-    color: #FFB548;
+    color: $second-color;
 }
 .container p {
     font-family: openSansRegular;
     font-size: 14px;
     line-height: 16px;
-}
-.container details {
-    // padding-block-start: 1rem;
-    // padding-block-end: 1rem;
 }

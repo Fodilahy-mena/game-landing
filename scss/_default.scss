@@ -45,8 +45,10 @@
     display: none;
   }
 
-  h2 {
+  h2, h3, h4 {
     font-family: bebasNeu;
+  }
+  h2 {
     font-size: $font-seze + 19;
     line-height: $lign-height + 17;
     letter-spacing: 3px;
@@ -54,12 +56,12 @@
   }
 
   h3 {
-    font-family: bebasNeu;
     font-size: $font-seze + 4;
     line-height: $lign-height + 2;
     letter-spacing: 2px;
     text-transform: uppercase
   }
+
 
   .masthead, section {
     padding-inline-start: 16px;
@@ -67,4 +69,3 @@
     position: relative;
   }
 
- 

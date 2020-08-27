@@ -1,6 +1,8 @@
+@import 'variables';
 
 .section__battle {
-    background-image: url(../images/bg_battle.jpg);
+    background-image: radial-gradient(70.03% 27.57% at 56% 60.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%),
+    url(../images/bg_battle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 40%;
