@@ -16,6 +16,13 @@
        url('#{$openSans-font-path}open_sans_bold.#{$woff}') format("#{$woff}");
 }
 
+@font-face {
+  font-family: bebasNeu;
+  src: local('Bebas Neue'),
+       url('#{$openSans-font-path}bebas_neue.#{$woff2}') format("#{$woff2}"),
+       url('#{$openSans-font-path}bebas_neue.#{$woff}') format("#{$woff}");
+}
+
   body {
     font-family: openSansRegular;
     font-size: 16px;
@@ -39,6 +46,7 @@
   }
 
   h2 {
+    font-family: bebasNeu;
     font-size: $font-seze + 19;
     line-height: $lign-height + 17;
     letter-spacing: 3px;
@@ -46,6 +54,7 @@
   }
 
   h3 {
+    font-family: bebasNeu;
     font-size: $font-seze + 4;
     line-height: $lign-height + 2;
     letter-spacing: 2px;

@@ -1,16 +1,17 @@
 .section__features {
-    background-image: url(../images/bg_fea3.png);
+    background-image: radial-gradient(27.45% 45.77% at 21.45% 50.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%),url(../images/bg_pruned2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 30% 40%;
+    background-position: 5% 50%;
+    background-size: cover, auto 100%;
+    font-family: bebasNeu;
     // padding-block-start: 16px;
     bottom: 164px;
 }
 
 .features__special {
     padding-block-end: 151px;
-    padding-block-start: 92px;
-    padding-inline-start: 92px;
+    padding-block-start: 70px;
+    padding-inline-start: 116px;
 }
 
 .container summary {
@@ -21,10 +22,11 @@
     color: #FFB548;
 }
 .container p {
+    font-family: openSansRegular;
     font-size: 14px;
     line-height: 16px;
 }
 .container details {
-    padding-block-start: 1rem;
-    padding-block-end: 1rem;
+    // padding-block-start: 1rem;
+    // padding-block-end: 1rem;
 }
