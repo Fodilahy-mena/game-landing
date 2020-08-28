@@ -306,9 +306,13 @@ body > nav > ul a:hover {
   font-family: bebasNeu;
   bottom: 164px; }
 
+.section__features h2, h3 {
+  margin: 0;
+  padding-inline-start: 1rem; }
+
 .features__special {
   padding-block-end: 151px;
-  padding-block-start: 70px;
+  padding-block-start: 95px;
   padding-inline-start: 116px; }
 
 .container summary {
@@ -317,10 +321,51 @@ body > nav > ul a:hover {
   letter-spacing: 2px;
   color: #FFB548; }
 
+.container {
+  position: relative;
+  top: 1rem; }
+
+.container details::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  border: 1px solid #FFFFFF;
+  top: 1rem; }
+
 .container p {
   font-family: openSansRegular;
   font-size: 14px;
-  line-height: 16px; }
+  line-height: 16px;
+  padding-inline-start: 1rem; }
+
+.container details > summary::-webkit-details-marker {
+  display: none; }
+
+.container summary {
+  padding: 1rem;
+  position: relative; }
+
+.container summary::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  top: 1rem;
+  left: -0.5rem;
+  border: 1px solid #FFFFFF; }
+
+details[open] summary::before {
+  background-color: #FFFFFF; }
+
+.container details:last-of-type {
+  bottom: auto;
+  height: 0; }
+
+.container details:first-child {
+  top: 0; }
 
 .section__requirements {
   background-image: radial-gradient(73.54% 63.14% at 45.77% 73.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), url(../images/bg_requirements1.png);
@@ -347,3 +392,19 @@ td {
 
 table {
   border-collapse: collapse; }
+
+.section__quotes button {
+  width: 216px;
+  height: 44px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  background-color: #FFB548;
+  border: 0;
+  border-radius: 2.94008px; }
+
+.quotes__comments li {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px; }
