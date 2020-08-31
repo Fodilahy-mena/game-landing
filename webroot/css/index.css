@@ -124,7 +124,7 @@ form > label {
   margin-bottom: -10rem;
   margin-top: 10rem; }
 
-.challenge > div > details, ul {
+.challenge > div > details, .challenge > div > ul {
   position: relative;
   right: 1rem; }
 
@@ -369,7 +369,7 @@ details[open] summary::before {
   top: 0; }
 
 .section__requirements {
-  background-image: radial-gradient(124.54% 26.14% at 34.77% 87.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), url(../images/bg_requirements1.png);
+  background-image: radial-gradient(124.54% 26.14% at 34.77% 72.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), url(../images/bg_requirements1.png);
   background-repeat: no-repeat;
   background-position: 100% calc(94% + 18px);
   background-size: contain;
@@ -414,6 +414,44 @@ table {
   border: 0;
   border-radius: 2.94008px; }
 
+.section__quotes {
+  background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+  bottom: 210px; }
+
 .quotes__comments li {
   background: rgba(255, 255, 255, 0.08);
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding: .5rem;
+  margin-bottom: 1rem; }
+
+.quotes__comments > li div {
+  display: flex;
+  justify-content: space-between; }
+
+.profile_name {
+  display: flex;
+  flex-direction: column; }
+
+.profile_name h4 {
+  margin: 0; }
+
+.outer_profile {
+  margin: 0; }
+
+.image_profile {
+  border-radius: 50%;
+  box-shadow: 4px 4px 0px 2px #FFB548; }
+
+.twitter {
+  opacity: 0.3; }
+
+.comment {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px; }
+
+.quotes__comments span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.5; }
