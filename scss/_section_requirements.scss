@@ -1,17 +1,15 @@
 @import 'variables';
 
 .section__requirements {
-    background-image: 
-    radial-gradient(73.54% 63.14% at 45.77% 73.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), 
-        url(../images/bg_requirements1.png);
+  background-image: radial-gradient(124.54% 26.14% at 34.77% 87.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), url(../images/bg_requirements1.png);
     background-repeat: no-repeat;
-    background-position: 40% 40%;
-    background-size: cover, auto 65%;
+    background-position: 100% calc(96% + 18px);
+    background-size: contain;
     bottom: 182px;
 }
 .requirements__system {
-    padding-block-start: 2rem;
-    padding-block-end: 300px;
+  padding-block-start: 2rem;
+  padding-block-end: 12rem;
 }
 h4 {
     font-size: 18px;
