@@ -299,21 +299,22 @@ body > nav > ul a:hover {
   text-align: center; }
 
 .section__features {
-  background-image: radial-gradient(27.45% 45.77% at 21.45% 50.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%), url(../images/bg_pruned2.png);
+  background-image: radial-gradient(51.45% 45.77% at 21.45% 50.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%), url(../images/bg_pruned2.png);
   background-repeat: no-repeat;
   background-position: 5% 50%;
   background-size: cover, auto 100%;
   font-family: bebasNeu;
   bottom: 164px; }
 
-.section__features h2, h3 {
+.section__features h2, .section__features h3 {
   margin: 0;
   padding-inline-start: 1rem; }
 
 .features__special {
   padding-block-end: 151px;
   padding-block-start: 95px;
-  padding-inline-start: 116px; }
+  padding-inline-start: 116px;
+  margin-inline-end: -1rem; }
 
 .container summary {
   font-size: 21px;
@@ -370,7 +371,7 @@ details[open] summary::before {
 .section__requirements {
   background-image: radial-gradient(124.54% 26.14% at 34.77% 87.51%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 46.19%, #080A0B 100%), url(../images/bg_requirements1.png);
   background-repeat: no-repeat;
-  background-position: 100% calc(96% + 18px);
+  background-position: 100% calc(94% + 18px);
   background-size: contain;
   bottom: 182px; }
 
@@ -388,7 +389,15 @@ table, td {
   border: 0.504234px solid #979797; }
 
 td {
-  padding: 1rem; }
+  padding: .5rem; }
+
+td h4 {
+  margin-top: 0; }
+
+td span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px; }
 
 table {
   border-collapse: collapse; }
