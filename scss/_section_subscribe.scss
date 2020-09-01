@@ -2,11 +2,12 @@
 
 
 .section__subscribe {
-    background-image: radial-gradient(27.45% 183.77% at 11.45% 47.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%), url(../images/bg_subscribe.jpg);
+    background-image: radial-gradient(48.43% 32.19% at -7% 25%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%), url(../images/bg_subscribe.jpg);
     background-repeat: no-repeat;
     background-position: 0% 0%;
-    background-size: cover, 45%;
+    background-size: cover, 40%;
     bottom: 210px;
+    padding-block-end: 61px;
 }
 
 .subscribe__news {
@@ -22,4 +23,52 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
+}
+
+.subscribe__form {
+    padding-block-start: 2rem;
+}
+
+.subscribe__type {
+    width: auto;
+    height: 44px;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #FFB548;
+    border: 0;
+    border-radius: 2.94008px;
+}
+
+.email {
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    text-align: left;
+}
+
+.email label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.5;
+}
+.email input {
+    border: 0;
+    background-color: initial;
+}
+.email ::placeholder {
+    color: #FFB548;
+  }
+  
+
+.submit button {
+    margin-block-start: 0.7rem;
+    border: 0;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
 }
