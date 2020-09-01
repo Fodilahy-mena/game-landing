@@ -415,7 +415,7 @@ table {
   border-radius: 2.94008px; }
 
 .section__quotes {
-  background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+  background: radial-gradient(110.52% 0.27% at 79.21% 80.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
   bottom: 210px; }
 
 .quotes__comments li {
@@ -455,3 +455,7 @@ table {
   font-size: 14px;
   line-height: 22px;
   opacity: 0.5; }
+
+.section__quotes ul {
+  padding-block-end: 5rem;
+  padding-block-start: 1rem; }

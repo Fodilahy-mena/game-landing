@@ -77,6 +77,10 @@ details[open] summary::before {
     bottom: auto;
     height: 0;
 }
+// .container details:nth-of-type(2)::before {
+//     bottom: auto;
+//     height: 0;
+// }
 
 .container details:first-child {
     top: 0;
