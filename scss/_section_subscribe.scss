@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+.section__subscribe {
+    background-image: radial-gradient(27.45% 183.77% at 11.45% 47.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%), url(../images/bg_subscribe.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: cover, 45%;
+    bottom: 210px;
+}
+
+.subscribe__news {
+    padding-inline-start: 100px;
+    padding-block-start: 2rem;
+}
+
+.section__subscribe h2, .section__subscribe h3 {
+    margin: 0;
+}
+
+.section__subscribe p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
