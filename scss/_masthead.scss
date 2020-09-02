@@ -1,4 +1,5 @@
 
+@import 'variables';
 
 .masthead {
     background-image: url(../images/bg_challenge1.jpg);
@@ -8,7 +9,6 @@
     padding-block-start: 228px;
     padding-block-end: 200px;
     top: -125px;
-    z-index: -1;
 }
 
 .masthead button {
@@ -67,7 +67,40 @@
     border-radius: 50%;
     background-color: transparent;
 }
-summary {
+
+.masthead details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+.masthead summary {
     text-transform: uppercase;
     font-size: $font-seze - 2;
+    outline: 0;
+    position: relative;
+}
+
+.masthead summary::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    left: -1rem;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid $first-color;
+}
+
+.masthead details[open] summary::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    left: 4rem;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFFFFF;
 }
