@@ -251,8 +251,7 @@ body > nav > ul a {
   line-height: 16px;
   transition: opacity 0.3s;
   display: block;
-  padding: 1rem 1rem 1rem 4rem;
-  vertical-align: middle; }
+  padding: 1rem 1rem 1rem 4rem; }
 
 body > nav .icon {
   background-position: 1rem 50%; }
