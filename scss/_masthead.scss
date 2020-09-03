@@ -17,15 +17,15 @@
     padding: 0;
     font-weight: bold;
     font-size: $font-seze;
-    line-height: 19px;
-    text-align: center;
+    line-height: $lign-height + 3;
+    text-align: $center;
     background-color: $second-color;
     border: 0;
     border-radius: 2.94008px;
 }
 
 .challenge {
-    text-align: center;
+    text-align: $center;
 }
 .challenge > div {
     display: flex;
@@ -45,7 +45,7 @@
     float: left;
     width: 20%;
     position: relative;
-    text-align: center;
+    text-align: $center;
 }
 
 .progressbar svg {
@@ -78,7 +78,7 @@
     outline: 0;
     position: relative;
     font-weight: bold;
-    line-height: 22px;
+    line-height: $lign-height + 6;
 }
 
 .masthead summary::before {

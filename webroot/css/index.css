@@ -248,7 +248,7 @@ body > nav > ul a {
   opacity: 0.5;
   font-weight: 700;
   font-size: 0.75rem;
-  line-height: 1rem;
+  line-height: 16px;
   transition: opacity 0.3s;
   display: block;
   padding: 1rem 1rem 1rem 4rem;

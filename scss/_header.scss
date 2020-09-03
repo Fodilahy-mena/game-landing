@@ -39,7 +39,7 @@ body > header > div {
     font-style: normal;
     font-weight: bold;
     font-size: $font-seze - 2;
-    line-height: 16px;
+    line-height: $lign-height;
     text-align: right;
     letter-spacing: 0.1em;
     text-transform: uppercase;

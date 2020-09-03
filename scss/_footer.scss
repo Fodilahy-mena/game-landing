@@ -7,7 +7,7 @@ footer {
 }
 
 .sos--logo {
-    text-align: center;
+    text-align: $center;
     padding-block-start: 30px;
 }
 
@@ -24,7 +24,7 @@ footer {
 .row a {
     color: $first-color;
     font-weight: bold;
-    font-size: 12px;
+    font-size: $font-seze - 2;
     line-height: 16px;
     letter-spacing: 0.1em;
 }
@@ -40,14 +40,14 @@ footer {
 
 .copyright {
     font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: $font-seze - 2;
+    line-height: $lign-height;
     opacity: 0.5;
 }
 
 .private--communication {
     display: block;
-    text-align: center;
+    text-align: $center;
     text-transform: uppercase;
     padding-block-end: 2rem;
 }
@@ -57,8 +57,8 @@ footer {
 .private--communication a {
     color: $first-color;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: $font-seze - 2;
+    line-height: $lign-height;
     letter-spacing: 0.1em;
 }
 

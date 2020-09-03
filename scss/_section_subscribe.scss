@@ -21,8 +21,8 @@
 
 .section__subscribe p {
     font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: $font-seze;
+    line-height: $lign-height + 3;
 }
 
 .subscribe__form {
@@ -34,10 +34,10 @@
     height: 44px;
     padding: .5rem;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    background-color: #FFB548;
+    font-size: $font-seze;
+    line-height: $lign-height + 3;
+    text-align: $center;
+    background-color: $second-color;
     border: 0;
     border-radius: 2.94008px;
 }
@@ -50,8 +50,8 @@
 
 .email label {
     font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: $font-seze - 2;
+    line-height: $lign-height;
     opacity: 0.5;
 }
 .email input {
@@ -59,7 +59,7 @@
     background-color: initial;
 }
 .email ::placeholder {
-    color: #FFB548;
+    color: $second-color;
   }
   
 
@@ -68,7 +68,7 @@
     border: 0;
     background-color: inherit;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
+    font-size: $font-seze;
+    line-height: $lign-height + 3;
+    text-align: $center;
 }

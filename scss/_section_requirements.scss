@@ -12,8 +12,8 @@
   padding-block-end: 12rem;
 }
 h4 {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: $font-seze + 4;
+    line-height: $lign-height + 2;
     letter-spacing: 2px;
     color: $second-color;
   }
@@ -31,8 +31,8 @@ td h4 {
 
 td span {
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: $font-seze;
+  line-height: $lign-height;
 }
 table {
   border-collapse:collapse;

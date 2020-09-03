@@ -6,7 +6,6 @@
     background-position: 5% 50%;
     background-size: cover, auto 100%;
     font-family: bebasNeu;
-    // padding-block-start: 16px;
     bottom: 164px;
 }
 
@@ -23,9 +22,8 @@
 }
 
 .container summary {
-    font-size: 21px;
-    line-height: 21px;
-    // text-align: center;
+    font-size: $font-seze + 7;
+    line-height: $lign-height + 5;
     letter-spacing: 2px;
     color: $second-color;
 }
@@ -44,8 +42,8 @@
 }
 .container p {
     font-family: openSansRegular;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: $font-seze;
+    line-height: $lign-height;
     padding-inline-start: 1rem;
 }
 
@@ -77,10 +75,7 @@ details[open] summary::before {
     bottom: auto;
     height: 0;
 }
-// .container details:nth-of-type(2)::before {
-//     bottom: auto;
-//     height: 0;
-// }
+
 
 .container details:first-child {
     top: 0;
