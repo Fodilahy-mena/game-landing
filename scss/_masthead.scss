@@ -77,6 +77,8 @@
     font-size: $font-seze - 2;
     outline: 0;
     position: relative;
+    font-weight: bold;
+    line-height: 22px;
 }
 
 .masthead summary::before {
@@ -86,21 +88,24 @@
     width: 0;
     height: 0;
     right: 0;
-    left: -1rem;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 8px solid $first-color;
+    left: 1rem;
+    top: 1.5rem;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $first-color;
 }
 
 .masthead details[open] summary::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: 0;
-    left: 4rem;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid #FFFFFF;
+    display: none;
+    // content: '';
+    // display: block;
+    // position: absolute;
+    // width: 0;
+    // height: 0;
+    // right: 0;
+    // left: 4rem;
+    // top: 0rem;
+    // border-left: 8px solid transparent;
+    // border-right: 8px solid transparent;
+    // border-bottom: 8px solid #FFFFFF;
 }
