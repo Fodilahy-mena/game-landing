@@ -72,3 +72,14 @@
     border-bottom: 1px solid  $first-color;
   }
 
+  @media (min-width: 1114px) {
+    h2 {
+      font-size: $font-seze + 66;
+      line-height: $lign-height + 62;
+    }
+  
+    h3 {
+      font-size: $font-seze + 10;
+      line-height: $lign-height + 8;
+    }
+  }
