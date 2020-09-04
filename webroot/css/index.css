@@ -52,6 +52,11 @@ h3 {
   border-bottom: 1px solid #FFFFFF; }
 
 @media (min-width: 1114px) {
+  .masthead, section, #battle, footer {
+    padding-inline-end: 121px;
+    padding-inline-start: 121px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
   h2 {
     font-size: 80px;
     line-height: 78px; }
@@ -638,12 +643,21 @@ footer {
 
 .row {
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   justify-content: space-between; }
 
 .row li {
-  padding: 1rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-block-end: 1rem; }
+
+.row li:nth-of-type(1), .row li:nth-of-type(2) {
+  flex-basis: 20%; }
+
+.row li:nth-of-type(3) {
+  flex-basis: 48%; }
+
+.row li:nth-of-type(4), .row li:nth-of-type(5) {
+  flex-basis: auto; }
 
 .row a {
   color: #FFFFFF;

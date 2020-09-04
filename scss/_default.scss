@@ -73,6 +73,13 @@
   }
 
   @media (min-width: 1114px) {
+    .masthead, section, #battle, footer {
+    padding-inline-end: 121px;
+    padding-inline-start: 121px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    }
+    
     h2 {
       font-size: $font-seze + 66;
       line-height: $lign-height + 62;
